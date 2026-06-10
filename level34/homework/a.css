@@ -1,0 +1,27 @@
+#center{
+
+
+    background-color: red;
+    width: 250px;
+    height: 200px;
+}
+
+#right{
+
+    background-color: yellow;
+    width: 100px;
+    height: 200px;
+    
+}
+
+
+
+#main{
+    display: flex;
+    justify-content: right;
+}
+
+#mm{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+/* .random{
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+#main1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.com{
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+}

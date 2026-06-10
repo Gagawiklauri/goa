@@ -1,0 +1,105 @@
+<!--
+
+CSS-ის 3 მეთოდი არსებობს:
+
+1) Inline CSS
+- სტილი იწერება პირდაპირ HTML თეგში 
+- გამოიყენება პატარა ცვლილებებისთვის
+მა
+
+2) Internal CSS
+- სტილი იწერება HTML ფაილში <style> თეგში (head-ში)
+- გამოიყენება ერთ გვერდზე სტილისთვის
+
+3) External CSS
+- სტილი იწერება ცალკე .css ფაილში
+- საუკეთესო და პროფესიონალური მეთოდი
+- გამოიყენება დიდ პროექტებში
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inline CSS</title>
+</head>
+
+<body>
+
+    <h1 style="color:red; text-align:center; font-size:50px;">
+        Inline CSS მაგალითი
+    </h1>
+
+    <p style="color:blue; font-size:20px;">
+        ეს ტექსტი გასტილებულია inline CSS-ით
+    </p>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>External CSS</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>External CSS საიტი</h1>
+
+    <p>ეს ტექსტი მოდის external CSS-დან</p>
+
+</body>
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Internal CSS</title>
+
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        h1 {
+            color: red;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        p {
+            color: blue;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Internal CSS მაგალითი</h1>
+
+    <p>ეს ტექსტი გასტილებულია internal CSS-ით</p>
+
+</body>
+
+</html>
+
+

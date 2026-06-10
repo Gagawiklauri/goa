@@ -1,0 +1,22 @@
+#ps{
+    position: relative;
+    align-items: center;
+    background-color: aqua;
+    width: 200px;
+    height: 250px;
+}
+
+#ab{
+    background-color: blue;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+
+}
+
+#sqrol{
+    position: fixed;
+    background-color: rebeccapurple;
+    width: 250px;
+    height: 300px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p:hover{
+    color: aqua;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+h1:hover{
+    
+    color: blue;
+    
+}
+
+p{
+    color: white;
+}
+
+
+
+#main{
+    width: 500px; 
+    height: 350px;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 15px;
+    border: 3px solid red;
+}

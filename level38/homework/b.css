@@ -1,0 +1,10 @@
+#random{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+}

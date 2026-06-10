@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#world{
+    align-items: center;
+    color: aqua;
+}
+
+h1:hover{
+    background-color: purple;
+    color: black;
+    width: 350px;
+    height: 70px;
+}
+
+#dv{
+    
+    align-items: right;
+    background-color: blue;
+    width: 350px;
+    height: 200px;
+    
+}
+
+div:hover{
+    color: yellow;
+}
+
+
+#main{
+    width: 500px;
+    height: 350px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 300px;
+    border: 3px solid pink;
+}
+
+#main1{
+    display: flex;
+    justify-content: right;
+}

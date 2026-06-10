@@ -1,0 +1,136 @@
+<!-- text - ტექსტის შესაყვანი ველი -->
+<!-- password - პაროლის შესაყვანი ველი, სიმბოლოები დამალულია -->
+<!-- email - ელფოსტის შესაყვანი ველი -->
+<!-- number - მხოლოდ რიცხვების შესაყვანი ველი -->
+<!-- radio - რამდენიმე ვარიანტიდან მხოლოდ ერთის ასარჩევად -->
+<!-- checkbox - ერთი ან რამდენიმე ვარიანტის მოსანიშნად -->
+<!-- color - ფერის ასარჩევი ველი -->
+<!-- submit - ფორმის გასაგზავნი ღილაკი -->
+<!-- button - ჩვეულებრივი ღილაკი -->
+<!-- date - თარიღის ასარჩევი ველი -->
+<!-- tel - ტელეფონის ნომრის შესაყვანი ველი -->
+<!-- time - დროის ასარჩევი ველი -->
+<!-- month - თვის ასარჩევი ველი -->
+<!-- week - კვირის ასარჩევი ველი -->
+<!-- hidden - დამალული input, მომხმარებელი ვერ ხედავს -->
+
+
+
+<!-- name ატრიბუტი გამოიყენება input ველისთვის სახელის (იდენტიფიკატორის) მისაცემად -->
+
+<!-- როდესაც ფორმა იგზავნება (submit), სწორედ name-ის მიხედვით იგზავნება მონაცემი სერვერზე -->
+
+<!-- ანუ: name არის "გასაღები", ხოლო მომხმარებლის შეყვანილი მნიშვნელობა არის "value" -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Radio Form</title>
+</head>
+<body>
+
+    <h2>Choose your favorite subject:</h2>
+
+    <form>
+
+        <input type="radio" name="subject" value="math"> Math<br>
+        <input type="radio" name="subject" value="physics"> Physics<br>
+        <input type="radio" name="subject" value="biology"> Biology<br>
+        <input type="radio" name="subject" value="history"> History<br>
+        <input type="radio" name="subject" value="english"> English<br>
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+
+        <label>First name:</label><br>
+        <input type="text"><br><br>
+
+        <label>Last name:</label><br>
+        <input type="text"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password"><br><br>
+
+        <label>Confirm password:</label><br>
+        <input type="password"><br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter password"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date"><br><br>
+
+        <label>Favorite Color:</label><br>
+        <input type="color"><br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender"> Male<br>
+        <input type="radio" name="gender"> Female<br>
+        <input type="radio" name="gender"> Other<br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
+
+

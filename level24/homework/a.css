@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.st{
+    color: white;
+    text-align: left;
+    text-decoration: underline red;
+}
+
+.nd{
+    color: blue;
+    text-align: center;
+    text-decoration: line-through white;
+}
+
+.th{
+    color: red;
+    text-decoration: overline white;
+    text-align: right;
+}
