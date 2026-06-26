@@ -1,0 +1,168 @@
+body {
+    background-color: hsl(241, 100%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+
+.left-card {
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+
+.circle h1 {
+    font-size: 40px;
+}
+
+.circle p {
+    opacity: 0.7;
+}
+
+.left-card h2 {
+    margin-top: 20px;
+}
+
+
+
+.right-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.right-card h3 {
+    margin-top: 20px;
+}
+
+.right-card div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+button {
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #303b5a;
+    color: white;
+    margin-top: 50px;
+
+}
+
+#for {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 78%, 84%);
+    justify-content: space-around;
+}
+
+#st {
+    color: hsl(0, 100%, 67%);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 300px;
+    
+}
+
+#forea {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(39, 72%, 76%);
+    justify-content: space-around;
+}
+
+#fori{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(166, 83%, 68%);
+    justify-content: space-around;
+}
+
+#xuti{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(252, 100%, 67%);
+    justify-content: space-around;
+}
+
+#img1 {
+    height: 20px;
+    width: 20px;
+}
+
+#pic2 {
+    height: 20px;
+    width: 20px;
+}
+
+#imgg2 {
+    width: 20px;
+    height: 20px;
+}
+
+#pic1 {
+    width: 20px;
+    height: 20px;
+}
+
+
+button:hover {
+    background-color: #1125b6;
+}
+
+
+#wre{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    margin-right: 55px;
+    background-color: hsl(244, 100%, 79%);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+h1{
+    color: hsl(240, 24%, 65%);
+}
