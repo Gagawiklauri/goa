@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(186, 15%, 59%);
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 550px;
+    justify-self: center;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+#left {
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#top {
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+#right {
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#lefter {
+    display: flex;
+    flex-direction: column;
+}
+
+#righter {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    height: 50px;
+    width: 520px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#mid {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#bott {
+    height: 140px;
+    width: 520px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#bottt {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: hsl(169, 82%, 27%);
+    width: 520px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+#main{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 100px;    
+}
+
+
+
+h3{
+    color: hsl(228, 12%, 48%);
+    /* margin-bottom: 350px; */
+}
+
+h1{
+    font-size: 35px;
+}
+
+#rigth{
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+}
+
+#h1{
+    color: hsl(158, 36%, 37%);
+}
+
+#ogo{
+    width: 50px;
+    height: 50px;
+}
+
+#mainbotom{
+    background-color: hsl(158, 42%, 18%);
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+#imagi{
+    height: 500px;
+}

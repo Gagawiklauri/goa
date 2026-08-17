@@ -1,0 +1,82 @@
+body {
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
+#main {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 200px;
+}
+
+
+
+
+#top {
+    background-image: url(./images/bg-pattern-card.svg);
+    width: 400px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+#rn {
+    border-radius: 500px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+h1 {
+    display: flex;
+    justify-self: center;
+}
+
+h2 {
+    display: flex;
+    margin-left: 130px;
+    color: hsl(227, 10%, 46%);
+}
+
+#bo {
+    border: 0.5px solid hsl(227, 10%, 46%);
+    margin-top: 170px;
+}
+
+
+#last {
+    display: flex;
+    gap: 100px;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#ball {
+    background-image: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -100px;
+    transform: rotate(-90deg);
+    width: 800px;
+    height: 800px;
+}
+
+#ball2 {
+    background-image: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -400px;
+    z-index: -10;
+    left: -200px;
+}

@@ -1,0 +1,68 @@
+#main{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 900px;
+    height: 700px;
+    margin-top: 150px;
+    
+    
+}
+
+#ora{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(31, 77%, 52%);
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: large;
+}
+
+button{
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    margin-top: 220px;
+}
+
+
+span{
+    text-align: left;
+    img{
+        margin-right: 200px;
+    }
+}
+
+
+#right{
+    width: 300px;
+    height: 500px;
+    background-color: hsl(184, 100%, 22%);
+    text-align: center;
+}
+
+#left{
+    background-color:hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    margin-top: 220px;
+}
+
+img{
+    height: 50px;
+    height: 50px;
+}

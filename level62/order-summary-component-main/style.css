@@ -1,0 +1,61 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+    gap: 20px;
+    background-color: white;
+    width: 450px;
+    height: 500px;
+}
+
+
+
+#first{
+    border-radius: 15px;
+}
+
+
+
+#boto{
+    text-align: center;
+}
+
+#bluer{
+    color: hsl(224, 23%, 55%);
+}
+
+#buy{
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    align-self: center;
+    background-color: hsl(225, 100%, 94%);
+    width: 250px;
+    border-radius: 15px;
+}
+
+#wh{
+    color: white;
+    text-align: center;
+}
+
+#flosti{
+    background-color:  hsl(245, 75%, 52%);
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 15px;
+}
+
+#last{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}

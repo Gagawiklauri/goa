@@ -1,0 +1,33 @@
+
+#main{
+    display: flex;
+    gap: 20px;
+}
+
+.produc {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#jeans {
+    width: 150px;
+    height: 150px;
+}
+
+#skirt {
+    width: 150px;
+    height: 150px;
+}
+
+#short{
+    width: 150px;
+    height: 150px;
+}
+
+#jacket{
+    width: 150px;
+    height: 200px;
+}

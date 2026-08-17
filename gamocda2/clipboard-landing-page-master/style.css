@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 500px;
+    gap: 15px;
+}
+
+
+#stim {
+    width: 50px;
+    height: 50px;
+}
+
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pp {
+    color: hsl(201, 11%, 66%)
+}
+
+#rn {
+    display: flex;
+    gap: 20px;
+}
+
+#but {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: hsl(171, 66%, 44%);
+}
+
+#buut {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+
+#bet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+#ppp {
+    color: hsl(201, 11%, 66%)
+}
+
+
+
+#immg {
+    width: 350px;
+    height: 300px;
+
+
+
+}
+
+
+#pppp {
+    color: hsl(201, 11%, 66%)
+}
+
+
+p {
+    color: hsl(201, 11%, 66%)
+}
+
+
+#bot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* #ender {
+    margin-l
+} */
+
+#rano {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#mende {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#end3 {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 150px; */
+}
+
+
+#gaga {
+    width: 50px;
+    height: 30px;
+}
+
+#even {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#gogle {
+    margin-left: 100px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ibm {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+#micro {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+
+#idk {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+#vector {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+#mmmm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mainender {
+    background-color: hsl(180, 18%, 93%);
+    height: 100px;
+    display: flex;
+    gap: 150px;
+}
+
+#end0 {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.lastp {
+    color: black;
+
+}
+
+#forimgs {
+    margin-top: 30px;
+}
+
+#enderer {
+    display: flex;
+    gap: 250px;
+}
+
+.imgs2 {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media(max-width:768px) {
+    #rn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #bot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img {
+            width: 700px;
+            height: 550px;
+        }
+
+    }
+
+    #mende {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        img{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    #even{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        img{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+
+
+    #bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    #mainender{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

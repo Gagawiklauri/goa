@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+
+
+#main{
+    width: 600px;
+    height: 1500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border-radius: 15px;
+    
+}
+
+img{
+    width: 550px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+    #h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+p{
+    color: hsl(30, 3%, 45%);
+}
+
+#pp{
+    text-align: center;
+
+}
+
+#mid{
+    background-color: #fff7fc;
+    width: 550px;
+    height: 170px;
+    border-radius: 15px;
+    justify-self: center;
+    align-self: center;
+    
+    p{
+        margin-left: 30px;
+    }
+    h3{
+        margin-left: 30px;
+    }
+
+}
+
+#pinkur{
+    color: hsl(332, 51%, 32%);
+}
+
+span{
+    color: hsl(24, 5%, 18%);
+}
+
+
+.id{
+    color: hsl(14, 45%, 36%);
+    margin-left: 6px;
+}
+
+
+#row{
+    border-bottom: 1px solid black;
+    margin-top: 220px;
+}
+
+.id1{
+    color: hsl(14, 45%, 36%);
+    margin-left: 35px;
+}
+
+.spa{
+    color: hsl(14, 45%, 36%);
+}
+
+#pppp{
+    text-align: center;
+}
+
+
+#row1{
+        border-bottom: 1px solid black;
+}
+
+
+#gaga{
+    color: hsl(14, 45%, 36%);
+
+}
+
+
+#fornut{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sec{
+    margin-left: 350px;
+}
+
+
+#row2{
+    border-bottom: 1px solid black;
+    
+}
+
+#row3{
+    border: 1px solid black;
+}
+
+#idk{
+    display: flex;
+}
+
+#ido{
+    display: flex;
+}
+    
+#bossofrows{
+    display: flex;
+    flex-direction: column;
+}
+
+#row4{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+}
